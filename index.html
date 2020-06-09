@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="Data.js"></script>
+    <script type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="container my-1 auto">
+        <h1 class="text-muted text-center my-4 font-italic">COVID 19 PANDEMIC</h1>
+        <div class="state my-1">
+            <select name="state" id="stateSelect" class="p-2" style="width: 100%;" <option value="None">Select State
+                </option>
+            </select>
+        </div>
+        <div class="dist my-1 d-none">
+            <select name="district" id="districtSelect" class="p-2" style="width: 100%;">
+                <option value="None">Select District</option>
+            </select>
+        </div>
+    </div>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div" style="width: 900px; height: 420px;margin-left:18%;"></div>
+</body>
+
+</html>

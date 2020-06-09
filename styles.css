@@ -1,0 +1,11 @@
+.container{
+    max-width: 450px;
+}
+#stateSelect{
+    border: 0px;
+    border-bottom: 0.5px solid darkblue;
+}
+#districtSelect{
+    border: 0px;
+    border-bottom: 0.5px solid darkblue;
+}
